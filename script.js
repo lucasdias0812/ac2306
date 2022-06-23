@@ -32,11 +32,3 @@ class McHen {
     this.bebida = bebida
   }
 }
-
-recebimento(conta, valor){
-  if (conta === conta.cpf) {
-      //Essa função envia os valores ao banco do funcionário
-      //já chequei os parâmetros de envio e estão certos
-      bankApi.addValueBank(conta, valor);
-  }
-}
